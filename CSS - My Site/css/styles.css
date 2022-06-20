@@ -1,41 +1,168 @@
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+    text-decoration: underline;
+}
+
 body {
-  margin: 0;
-  text-align: center;
-  font-family: "Merriweather", serif;
-}
-
-h1 {
-    font-family: "Sacramento", cursive;
-    font-size: 90px;
-  margin-top: 0;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-}
-
-.top-container {
-  background-color: #e4f9f5;
-  padding-top: 60px;
-}
-
-.middle-container {
- background-color: whitesmoke;
+    color: #40514e;
+    font-family: "Merriweather", serif;
+    /* font-size: 2em; if this were put, the em actually add up with eacher so 2m turns into 7.625 em 
+    / same for percentages that also work with em and vice versa/  it doesnt matter with pixels */
+    margin: 0;
+    text-align: center;
 }
 
 .bottom-container {
-    
+    background-color: #66bfbf;
+    padding: 40px 40px 0 40px;
 }
 
 .bottom-cloud {
-  position: absolute;
+    position: absolute;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    -moz-border-radius: 8;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    -webkit-border-radius: 8;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.code-image {
+    float: left;
+    /* all text will wrap around the image, make sure to use float for wrapping an element not positioning not conventional*/
+    margin-right: 30px;
+    width: 25%;
+}
+
+/* .code-skill-description {
+    clear: left;
+    /* clear basically undoes the float for the paragraph 
+}
+*/
+
+.contact-p {
+    padding-bottom: 50px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #eaf6f6;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    padding: 20px 0
+}
+
+h1 {
+   color: #66BFBF;
+   font-family: "Sacramento", cursive;
+   font-size: 6.625rem; /* this is 106px, this is easier to debug */
+    /* rem means to ignore the parent em because this is the root em */
+   margin: 50px auto 0 auto;
+
+}
+/* 1 em is equal to 16px, em is good for accessibility  */
+/* the font family is in order of if the first doesnt work it moves to the second one */
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  /* makes it unbold its self, so it's lighter, since its a keyword value for font weight */
+  margin: 0 auto 50px auto;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+hr {
+    border-color: #00f7f7;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 50px auto;
+    /* border: dotted "color" 5px;
+       border-bottom: none;
+       margin */
+    }
+
+.idea-image {
+        width: 25%;
+        float: right;
+}
+    
+/* .idea-skill-description {
+        clear: right;
+} */
+
+.intro {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.intro-img {
+    padding-bottom: 20px;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+p {
+    line-height: 2;
+}
+
+.profile {
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    /* margins are clock wise starting from the top, if just two its top bottom and left right and so on, if its one thats the margin for all */
+    text-align: left;
+    width: 50%;
 }
 
 .top-cloud {
   position: relative;
   right: -200px;
 }
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 60px;
+  }
+
