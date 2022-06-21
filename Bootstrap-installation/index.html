@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Installation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <h1>navbar practice</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <!-- make sure to take a look at the css that we downloaded for bootstrap-->
       <a class="navbar-brand" href="">tindog</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +33,127 @@
           </ul>
       </div>
   </nav>
+        <h1>grid practice</h1>
+  <div class="row">
+    <div class="col" style="background-color: red; border: 1px solid;">
+        col
+    </div>
+    <div class="col" style="background-color: red; border: 1px solid;">
+        col
+    </div>
+</div>
+<!--First one divides the units out of a 100%-->
+<!--lg = large like computers / md = medium tablet sizes and above / sm = small phones and alike-->
+<div class="row">
+    <div class="col-6" style="background-color: green; border: 1px solid;">
+        col-6
+    </div>
+    <div class="col-3" style="background-color: green; border: 1px solid;">
+        col-3
+    </div>
+    <div class="col-2" style="background-color: green; border: 1px solid;">
+        col-2
+    </div>
+    <div class="col-1" style="background-color: green; border: 1px solid;">
+        col-1
+    </div>
+</div>
+<!--This one divides by 6 units, 3 units, 2 units and 1 unit which take up the whole section but its not responsive-->
+
+<div class="row">
+    <div class="col-lg-6" style="background-color: blue; border: 1px solid;">
+        col-md-6
+    </div>
+    <div class="col-md-6" style="background-color: blue; border: 1px solid;">
+        col-md-6
+    </div>
+     <div class="col-md-6" style="background-color: blue; border: 1px solid;">
+        col-md-6
+    </div>
+    <div class="col-md-6" style="background-color: blue; border: 1px solid;">
+        col-md-6
+    </div>
+</div>
+<!--This one divides similar to the second but it is responsive-->
+
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+     <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+     <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: yellow; border: 1px solid;">
+        col-lg-3 col-md-4 col-sm-6
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color: grey; border: 1px solid">
+        col-lg-2 col-md-3 col-sm-6
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color: grey; border: 1px solid">
+        col-lg-2 col-md-3 col-sm-6
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color: grey; border: 1px solid">
+        col-lg-2 col-md-3 col-sm-6
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6" style="background-color: grey; border: 1px solid">
+        col-lg-2 col-md-3 col-sm-6
+    </div>
+     <div class="col-lg-2 col-md-3 col-sm-6" style="background-color: grey; border: 1px solid">
+        col-lg-2 col-md-3 col-sm-6
+    </div>
+     <div class="col-lg-2 col-md-3 col-sm-6" style="background-color: grey; border: 1px solid">
+        col-lg-2 col-md-3 col-sm-6
+    </div>
+</div>
+<!--This is a responsive grid that will show 6 in a line on a computer, 4 in a line on a tablet, and all 6 different columns should be available on a phone-->
+
+<br>
+<br>
+    <h1>Container practice</h1>
+
+<div class="container" style="background-color: red;">
+    Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. 
+
+Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula. 
+
+Mollis pretium lorem primis senectus habitasse lectus scelerisque donec, ultricies tortor suspendisse adipiscing fusce morbi volutpat pellentesque, consectetur mi risus molestie curae malesuada cum. Dignissim lacus convallis massa mauris enim ad mattis magnis senectus montes, mollis taciti phasellus accumsan bibendum semper blandit suspendisse faucibus nibh est, metus lobortis morbi cras magna vivamus per risus fermentum. Dapibus imperdiet praesent magnis ridiculus congue gravida curabitur dictum sagittis, enim et magna sit inceptos sodales parturient pharetra mollis, aenean vel nostra tellus commodo pretium sapien sociosqu.
+</div>
+    <!-- This container is indented and responsive to the screen size. -->
+
+<br>
+<div class="container-fluid" style="background-color: red;">
+    Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. 
+
+Vivamus integer non suscipit taciti mus etiam at primis tempor sagittis sit, euismod libero facilisi aptent elementum felis blandit cursus gravida sociis erat ante, eleifend lectus nullam dapibus netus feugiat curae curabitur est ad. Massa curae fringilla porttitor quam sollicitudin iaculis aptent leo ligula euismod dictumst, orci penatibus mauris eros etiam praesent erat volutpat posuere hac. Metus fringilla nec ullamcorper odio aliquam lacinia conubia mauris tempor, etiam ultricies proin quisque lectus sociis id tristique, integer phasellus taciti pretium adipiscing tortor sagittis ligula. 
+
+Mollis pretium lorem primis senectus habitasse lectus scelerisque donec, ultricies tortor suspendisse adipiscing fusce morbi volutpat pellentesque, consectetur mi risus molestie curae malesuada cum. Dignissim lacus convallis massa mauris enim ad mattis magnis senectus montes, mollis taciti phasellus accumsan bibendum semper blandit suspendisse faucibus nibh est, metus lobortis morbi cras magna vivamus per risus fermentum. Dapibus imperdiet praesent magnis ridiculus congue gravida curabitur dictum sagittis, enim et magna sit inceptos sodales parturient pharetra mollis, aenean vel nostra tellus commodo pretium sapien sociosqu.
+</div>
+    <!-- This container has 100% width and is responsive to the screen size. -->
+
+ 
+    <br>
+    <h1> Rotating images practice</h1>
+    <div class="divvy">Normal</div>
+<div class="divvy rotated">Rotated</div>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
