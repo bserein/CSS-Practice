@@ -8,3 +8,31 @@
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
     background-color: pink;
   }
+
+
+  /* NEED TO COMMENT EVERYTHING else OUT FOR THIS TO WORK */
+  /* div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    position: absolute;
+ } */
+/*If the position is not absolute the z-index will not work*/
+
+.red {
+    background-color: red;
+    z-index: 1;
+}
+/* a default z-index is 0 and -1 is go in the back and 1 is to go on top and so on*/
+.yellow {
+    background-color: yellow;
+    left:20px;
+    top: 20px;
+}
+
+.blue {
+    background-color: blue;
+    left:40px;
+    top: 40px;
+    z-index: -1;
+}
