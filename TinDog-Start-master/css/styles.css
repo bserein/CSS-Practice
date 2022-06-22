@@ -1,23 +1,32 @@
-                                                            /* ID */
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-                                                            /* Tags */
-
 body {
     font-family: "Montserrat";
 }
 
 h1 {  
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
+    font-family: "Montserrat";
     line-height: 1.5;
+    font-size: 3rem;
     font-weight: 900;
     }
 
-                                                            /* Classes */
+h2 {
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 
 .container-fluid {
     padding: 3% 15%;
@@ -52,23 +61,76 @@ h1 {
 
 /* Title Image */
 
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
 .title-img {
     width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 3.5rem 0
+}      
+
+.font-img {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.font-img:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+
 }
 
 
 
-/* Rotate Image */
-/* .rotate-img {
-    -webkit-transform:rotate(25deg);
-    -moz-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    -o-transform: rotate(25deg);
-    transform: rotate(25deg);
-} */
-
-/* Crop Image */
-/* .crop-img {
-    position: absolute;
-    clip: rect(0px,700px,488px,0px);
-} */
