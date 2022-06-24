@@ -20,7 +20,7 @@ h3 {
     font-family: "Montserrat";
     line-height: 1.5;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 p {
@@ -29,7 +29,7 @@ p {
 
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Download Buttons */
@@ -67,18 +67,26 @@ p {
 }
 
 .title-img {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%
 }
 
 /* Features Section */
 
 #features {
-    text-align: center;
-    width: 85%;
-    margin: 0 auto;
-    padding: 3.5rem 0
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+    /* you no longer need this z-index because the stacking order has been changed now */
 }      
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
 
 .font-img {
     color: #ef8172;
